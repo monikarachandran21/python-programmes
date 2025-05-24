@@ -1,0 +1,32 @@
+def greet(name):
+  print(f"Hello, {name}!") "function calling"...
+
+
+
+# example for the fuctions:
+def add(x, y):
+    """Returns the sum of x and y."""
+    return x + y
+
+result = add(5, 3)
+print(result) 
+# Output: 8
+
+
+
+def describe_pet(name, animal_type='dog'):
+  print(f"I have a {animal_type} named {name}.")
+
+describe_pet("Buddy")  
+describe_pet("Whiskers", animal_type='cat')  
+
+def sum_numbers(*args):
+    return sum(args)
+
+print(sum_numbers(1, 2, 3, 4)) 
+
+def build_profile(**kwargs):
+    return kwargs
+
+user_profile = build_profile(first_name='john', last_name='doe', age=30)
+print(user_profile) # Output: {'first_name': 'john', 'last_name': 'doe', 'age': 30}
